@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AirplaneValidation\AirplaneValidation.cs" />
+    <Compile Include="AirplaneValidation\Airspace.cs" />
+    <Compile Include="AirplaneValidation\IAirplaneValidation.cs" />
+    <Compile Include="AirplaneValidation\IAirspace.cs" />
+    <Compile Include="AirplaneValidation\ValidationEventArgs.cs" />
+    <Compile Include="Converter\Airplane.cs" />
+    <Compile Include="Converter\IAirplane.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
