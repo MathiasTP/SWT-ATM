@@ -1,0 +1,13 @@
+C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\NUnit.Test.ATM\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\NUnit.Test.ATM\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\NUnit.Test.ATM\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\NUnit.Test.ATM\bin\Debug\NUnit.Test.ATM.dll
+C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\NUnit.Test.ATM\bin\Debug\NUnit.Test.ATM.pdb
+C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\NUnit.Test.ATM\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\NUnit.Test.ATM\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\NUnit.Test.ATM\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\NUnit.Test.ATM\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\NUnit.Test.ATM\obj\Debug\NUnit.Test.ATM.csprojAssemblyReference.cache
+C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\NUnit.Test.ATM\obj\Debug\NUnit.Test.ATM.csproj.CopyComplete
+C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\NUnit.Test.ATM\obj\Debug\NUnit.Test.ATM.dll
+C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\NUnit.Test.ATM\obj\Debug\NUnit.Test.ATM.pdb

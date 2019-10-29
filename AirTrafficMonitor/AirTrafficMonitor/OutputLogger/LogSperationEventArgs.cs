@@ -7,10 +7,19 @@ using System.Threading.Tasks;
 
 namespace AirTrafficMonitor.OutputLogger
 {
-   public class LogSeperationEventArgs : IOutputFilter
+   public class LogSeperationEventArgs : EventArgs
    {
-       public LogSeperationEventArgs(List<Airplane> ap);
-       public planesToLog List<Airplane>();
+       public LogSeperationEventArgs(List<Airplane> ap)
+       {
+           get;
+           set;
+       }
+
+       public planesToLog List<Airplane>()
+       {
+           get;
+           set;
+       }
 
    }
 }
