@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AirTrafficMonitor.Converter;
+using AirTrafficMonitor.Separation;
 
 namespace AirTrafficMonitor.AirplaneValidation
 {
@@ -25,11 +26,25 @@ namespace AirTrafficMonitor.AirplaneValidation
         {
             Validated = e.PlanesToValidate;
             int[] stats = _airspace.getAirspaceLimits();
-            
+
             foreach (Airplane data in e.PlanesToValidate)
             {
+                //Tracks temptracks = data.GetTracks;
+                /*if(int[0] > temptracks. && )
+                 
+             */
+            }
 
+            if (Validated != e.PlanesToValidate)
+            {
+                OnCheckSeperationCondition(new SeparationEventArgs(Validated));
             }
         }
+
+        protected virtual void OnCheckSeperationCondition(SeparationEventArgs e)
+        {
+            SeparationEvent?.Invoke(this, e);
+        }
+
     }
 }
