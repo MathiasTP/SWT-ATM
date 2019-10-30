@@ -30,6 +30,5 @@ namespace AirTrafficMonitor.Separation
         {
 
         }
-        CheckSeparationCondition
     }
 }
