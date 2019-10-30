@@ -7,7 +7,7 @@ using AirTrafficMonitor.Converter;
 
 namespace AirTrafficMonitor.AirplaneValidation
 {
-    class ValidationEventArgs : EventArgs
+    public class ValidationEventArgs : EventArgs
     {
         public ValidationEventArgs(List<Airplane> planestovalidate)
         {

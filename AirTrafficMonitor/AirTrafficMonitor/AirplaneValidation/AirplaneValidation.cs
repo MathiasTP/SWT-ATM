@@ -13,6 +13,7 @@ namespace AirTrafficMonitor.AirplaneValidation
         private IAirplaneValidation _receiver;
         private List<Airplane> Validated;
         private IAirspace _airspace;
+
         
 
         public AirplaneValidation(IAirplaneValidation receiver)
@@ -51,7 +52,7 @@ namespace AirTrafficMonitor.AirplaneValidation
 
         protected virtual void OnCheckSeperationCondition(PlaneConditionCheckedEventArgs e)
         {
-            PlaneConditionChecked?.Invoke(this, e);
+            ?.Invoke(this, e);
         }
 
     }

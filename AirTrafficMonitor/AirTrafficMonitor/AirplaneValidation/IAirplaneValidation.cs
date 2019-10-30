@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AirTrafficMonitor.AirplaneValidation
 {
-    interface IAirplaneValidation
+    public interface IAirplaneValidation
     {
         event EventHandler<ValidationEventArgs> ValidationEvent;
     }
