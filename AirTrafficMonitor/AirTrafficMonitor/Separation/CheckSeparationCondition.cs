@@ -17,9 +17,9 @@ namespace AirTrafficMonitor.Separation
 
         }
 
-        public void OnPlanesToLog(SeparationEventArgs j)
+        /*public void OnPlanesToLog(SeparationEventArgs j)
         {
 
-        }
+        }*/
     }
 }

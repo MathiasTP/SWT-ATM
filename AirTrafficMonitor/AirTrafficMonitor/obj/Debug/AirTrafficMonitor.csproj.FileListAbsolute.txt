@@ -4,3 +4,6 @@ C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\AirTrafficMon
 C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csprojAssemblyReference.cache
 C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.exe
 C:\Users\Mathias\Source\Repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.pdb
+C:\Users\bella\source\repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csprojAssemblyReference.cache
+C:\Users\bella\source\repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.exe
+C:\Users\bella\source\repos\Elgaard1\I4SWT_ATM\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.pdb

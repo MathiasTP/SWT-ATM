@@ -6,28 +6,31 @@ using System.Threading.Tasks;
 
 namespace AirTrafficMonitor.AirplaneValidation
 {
-    class Airspace : IAirspace
+    public class Airspace : IAirspace
     {
-        private int _xplane;
-        private int _yplane;
-        private int _zLow;
-        private int _zHigh;
+        private int _xhigh, _xlow;
+        private int _yhigh, _ylow;
+        private int _zLow, _zHigh;
 
         Airspace()
         {
-           _xplane = 80000;
-           _yplane = 80000;
-           _zLow = 20000;
-          _zHigh = 90000;
+           _xhigh = 90000;
+           _xlow = 10000;
+           _yhigh = 90000;
+           _ylow = 10000;
+           _zLow = 500;
+          _zHigh = 20000;
     }
 
         int[] IAirspace.getAirspaceLimits()
         {
-            int[] temp = new int[3];
-            temp[0] = _xplane;
-            temp[1] = _yplane;
-            temp[2] = _zLow;
-            temp[3] = _zHigh;
+            int[] temp = new int[5];
+            temp[0] = _xhigh;
+            temp[1] = _xlow;
+            temp[2] = _yhigh;
+            temp[3] = _ylow;
+            temp[4] = _zLow;
+            temp[5] = _zHigh;
             return temp;
         }
     }

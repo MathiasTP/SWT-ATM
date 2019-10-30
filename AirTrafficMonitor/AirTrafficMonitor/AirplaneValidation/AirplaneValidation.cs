@@ -11,21 +11,24 @@ namespace AirTrafficMonitor.AirplaneValidation
     {
         private IAirplaneValidation _receiver;
         private List<Airplane> Validated;
+        private IAirspace _airspace;
+        
 
         public AirplaneValidation(IAirplaneValidation receiver)
         {
             this._receiver = receiver;
-
+            
             this._receiver.ValidationEvent += Validate;
         }
 
         private void Validate(object s, ValidationEventArgs e)
         {
             Validated = e.PlanesToValidate;
-
-            foreach (var data in e.PlanesToValidate)
+            int[] stats = _airspace.getAirspaceLimits();
+            
+            foreach (Airplane data in e.PlanesToValidate)
             {
-                
+
             }
         }
     }
