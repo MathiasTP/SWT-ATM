@@ -9,6 +9,14 @@ namespace AirTrafficMonitor.Converter
 {
     public interface IAirplane
     {
-        
+        string _tag { get; set; }
+
+        double _velocity { get; set; }
+
+        int _compasCourse { get; set; }
+
+        List<Tracks> _tracks { get; set; }
+
+        bool _seperationCodition { get; set; }
     }
 }
