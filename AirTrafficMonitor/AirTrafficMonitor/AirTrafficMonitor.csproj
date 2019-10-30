@@ -56,7 +56,6 @@
     <Compile Include="Converter\ICompassCourse.cs" />
     <Compile Include="Converter\IConvertFilter.cs" />
     <Compile Include="Converter\IVolocity.cs" />
-    <Compile Include="Converter\Program.cs" />
     <Compile Include="Converter\Tracks.cs" />
     <Compile Include="Converter\Volocity.cs" />
     <Compile Include="Separation\CheckSeparationCondition.cs" />

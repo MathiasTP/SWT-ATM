@@ -12,6 +12,8 @@ namespace AirTrafficMonitor.Separation
         private ICheckSeparationCondition _reciever;
         private List<IAirplane> separated;
 
+        public event EventHandler<PlaneConditionCheckedEventArgs> PlaneConditionChecked;
+
         public CheckSeparationCondition()
         {
 

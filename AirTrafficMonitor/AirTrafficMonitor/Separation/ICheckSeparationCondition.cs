@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AirTrafficMonitor.Separation
 {
-    interface ICheckSeparationCondition
+    public interface ICheckSeparationCondition
     {
         event EventHandler<PlaneConditionCheckedEventArgs> PlaneConditionChecked; 
     }

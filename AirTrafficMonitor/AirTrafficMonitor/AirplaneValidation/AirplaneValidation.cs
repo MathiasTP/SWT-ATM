@@ -37,13 +37,13 @@ namespace AirTrafficMonitor.AirplaneValidation
 
             if (Validated != e.PlanesToValidate)
             {
-                OnCheckSeperationCondition(new SeparationEventArgs(Validated));
+                OnCheckSeperationCondition(new PlaneConditionCheckedEventArgs(Validated));
             }
         }
 
-        protected virtual void OnCheckSeperationCondition(SeparationEventArgs e)
+        protected virtual void OnCheckSeperationCondition(PlaneConditionCheckedEventArgs e)
         {
-            SeparationEvent?.Invoke(this, e);
+            PlaneConditionChecked?.Invoke(this, e);
         }
 
     }
