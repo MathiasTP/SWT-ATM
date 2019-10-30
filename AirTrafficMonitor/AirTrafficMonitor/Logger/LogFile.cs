@@ -17,5 +17,18 @@ namespace AirTrafficMonitor.Logger
 
         }
 
+        public void LogSeparation()
+        {
+
+        }
+
+        public void MakeFolder()
+        {
+            if (!System.IO.Directory.Exists(@"..\logs"))
+            {
+                System.IO.Directory.CreateDirectory(@"..\logs");
+            }
+        }
+
     }
 }

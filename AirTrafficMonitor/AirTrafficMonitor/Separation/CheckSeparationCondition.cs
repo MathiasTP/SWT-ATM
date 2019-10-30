@@ -11,21 +11,25 @@ namespace AirTrafficMonitor.Separation
     {
         private ICheckSeparationCondition _reciever;
         private List<IAirplane> separated;
-        public event EventHandler<SeparationEventArgs> SeparationEvent;
+        private int _minDistance;
+        private int _maxDistance;
+        private int _minAltitude; 
+        public event EventHandler<PlaneConditionCheckedEventArgs> PlaneConditionChecked;
 
         public CheckSeparationCondition()
         {
 
         }
 
-        protected virtual void OnSeparationEvent(SeparationEventArgs e)
+        protected virtual void OnSeparationEvent(PlaneConditionCheckedEventArgs e)
         {
-            SeparationEvent?.Invoke(this, e);
+            PlaneConditionChecked?.Invoke(this, e);
         }
 
-        public void OnPlanesToLog(SeparationEventArgs j)
+        public void OnPlanesToLog(PlaneConditionCheckedEventArgs e)
         {
 
         }
+        CheckSeparationCondition
     }
 }

@@ -7,11 +7,11 @@ using AirTrafficMonitor.Converter;
 
 namespace AirTrafficMonitor.Separation
 {
-    class SeparationEventArgs : EventArgs
+    class PlaneConditionCheckedEventArgs : EventArgs
     {
-        public SeparationEventArgs(List<Airplane> PlanesSeparated)
+        public PlaneConditionCheckedEventArgs(List<Airplane> planeconditionchecked)
         {
-            this.PlaneConditionChecked = PlanesSeparated;
+            this.PlaneConditionChecked = planeconditionchecked;
         }
         public List<Airplane> PlaneConditionChecked { get; set; }
     };
