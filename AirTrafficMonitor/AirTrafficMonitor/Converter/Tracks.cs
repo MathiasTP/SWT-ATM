@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace AirTrafficMonitor.Converter
 {
-    public interface IAirplane
+    public class Tracks
     {
-        
+        public int _xCoordiante { get; set; }
+        public int _yCoordiante { get; set; }
+        public int _Altitude { get; set; }
     }
 }
