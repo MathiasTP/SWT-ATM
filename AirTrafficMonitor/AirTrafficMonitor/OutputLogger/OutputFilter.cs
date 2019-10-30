@@ -17,12 +17,12 @@ namespace AirTrafficMonitor.OutputLogger
         public event EventHandler<LogSeperationEventArgs> LogSeperationEvent;
 
 
-        public void LogPlanes(List<Airplane> newap)
+        public void LogPlanes(List<Airplane> ap)
         {
-            if (newap != _oldplane)
+            if (ap != _oldplane)
             {
-                OnLogSeperationEventArgs(new LogSeperationEventArgs {ap = newap});
-                _oldplane = newap;
+                OnLogSeperationEventArgs(new LogSeperationEventArgs {PlanestoLog = ap});
+                _oldplane = ap;
             }
         }
 
