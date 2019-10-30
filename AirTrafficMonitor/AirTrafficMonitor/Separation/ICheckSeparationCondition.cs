@@ -8,7 +8,6 @@ namespace AirTrafficMonitor.Separation
 {
     interface ICheckSeparationCondition
     {
-
-        event EventHandler<SeparationEventArgs> SeparationEvent; 
+        event EventHandler<PlaneConditionCheckedEventArgs> PlaneConditionChecked; 
     }
 }
