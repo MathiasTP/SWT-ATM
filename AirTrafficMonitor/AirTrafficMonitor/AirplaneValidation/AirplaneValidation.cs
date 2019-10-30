@@ -29,10 +29,18 @@ namespace AirTrafficMonitor.AirplaneValidation
 
             foreach (Airplane data in e.PlanesToValidate)
             {
-                //Tracks temptracks = data.GetTracks;
-                /*if(int[0] > temptracks. && )
-                 
-             */
+                List<Tracks> temp = data._tracks;
+
+                if (stats[0] > temp[0]._xCoordiante && stats[1] < temp[0]._xCoordiante)
+                {
+                    if (stats[2] > temp[0]._yCoordiante && stats[3] < temp[0]._yCoordiante)
+                    {
+                        if (stats[4] > temp[0]._Altitude && stats[5] < temp[0]._Altitude)
+                        {
+                            Validated.Add(data);
+                        }
+                    }
+                }
             }
 
             if (Validated != e.PlanesToValidate)

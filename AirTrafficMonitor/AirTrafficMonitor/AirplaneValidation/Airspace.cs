@@ -29,8 +29,8 @@ namespace AirTrafficMonitor.AirplaneValidation
             temp[1] = _xlow;
             temp[2] = _yhigh;
             temp[3] = _ylow;
-            temp[4] = _zLow;
-            temp[5] = _zHigh;
+            temp[4] = _zHigh;
+            temp[5] = _zLow;
             return temp;
         }
     }
