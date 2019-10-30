@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AirTrafficMonitor",
+    "\\AirTrafficMonitor\\AirTrafficMonitor",
+    "\\AirTrafficMonitor\\AirTrafficMonitor\\AirplaneValidation",
+    "\\AirTrafficMonitor\\AirTrafficMonitor\\OutputLogger",
+    "\\AirTrafficMonitor\\AirTrafficMonitor\\Separation"
   ],
+  "SelectedNode": "\\AirTrafficMonitor\\AirTrafficMonitor.sln",
   "PreviewInSolutionExplorer": false
 }

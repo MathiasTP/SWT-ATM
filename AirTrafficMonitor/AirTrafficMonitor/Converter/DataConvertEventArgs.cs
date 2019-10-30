@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace AirTrafficMonitor.Converter
 {
-    public interface IAirplane
+    public class ConvertEventArgs : EventArgs
     {
-        
+        public ConvertEventArgs(List<Tracks> convertedData) { }
+
+        public List<Tracks> ConvertedData { get; set; }
     }
 }
