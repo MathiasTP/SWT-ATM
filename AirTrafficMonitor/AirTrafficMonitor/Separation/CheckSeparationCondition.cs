@@ -7,14 +7,20 @@ using AirTrafficMonitor.Converter;
 
 namespace AirTrafficMonitor.Separation
 {
-    public class CheckSeparationCondition : ICheckSeparationCondition
+    class CheckSeparationCondition : ICheckSeparationCondition
     {
         private ICheckSeparationCondition _reciever;
         private List<IAirplane> separated;
+        public event EventHandler<SeparationEventArgs> SeparationEvent;
 
         public CheckSeparationCondition()
         {
 
+        }
+
+        protected virtual void OnSeparationEvent(SeparationEventArgs e)
+        {
+            SeparationEvent?.Invoke(this, e);
         }
 
         public void OnPlanesToLog(SeparationEventArgs j)

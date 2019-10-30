@@ -9,10 +9,10 @@ namespace AirTrafficMonitor.Separation
 {
     class SeparationEventArgs : EventArgs
     {
-        public SeparationEventArgs(List<Airplane> planesSeparation)
+        public SeparationEventArgs(List<Airplane> PlanesSeparated)
         {
-            this.PlanesToSeparate = planesSeparation;
+            this.PlaneConditionChecked = PlanesSeparated;
         }
-        public List<Airplane> PlanesToSeparate { get; }
+        public List<Airplane> PlaneConditionChecked { get; set; }
     };
 }
