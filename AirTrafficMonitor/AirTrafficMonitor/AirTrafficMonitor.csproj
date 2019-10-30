@@ -58,6 +58,9 @@
     <Compile Include="Converter\IVolocity.cs" />
     <Compile Include="Converter\Tracks.cs" />
     <Compile Include="Converter\Volocity.cs" />
+    <Compile Include="OutputValidation\IOutputFilter.cs" />
+    <Compile Include="OutputValidation\LogSeperationEventArgs.cs" />
+    <Compile Include="OutputValidation\OutputFilter.cs" />
     <Compile Include="Separation\CheckSeparationCondition.cs" />
     <Compile Include="Logger\ConsoleLogger.cs" />
     <Compile Include="Separation\ICheckSeparationCondition.cs" />

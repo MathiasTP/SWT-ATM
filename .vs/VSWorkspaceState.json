@@ -6,7 +6,7 @@
     "\\AirTrafficMonitor\\AirTrafficMonitor\\AirplaneValidation",
     "\\AirTrafficMonitor\\AirTrafficMonitor\\Converter",
     "\\AirTrafficMonitor\\AirTrafficMonitor\\OutputLogger",
-    "\\AirTrafficMonitor\\NUnit.Test.ATM"
+    "\\AirTrafficMonitor\\AirTrafficMonitor\\Separation"
   ],
   "SelectedNode": "\\AirTrafficMonitor\\AirTrafficMonitor.sln",
   "PreviewInSolutionExplorer": false
