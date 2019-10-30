@@ -1,25 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace AirTrafficMonitor.Converter
 {
-    public class Airplane
+    public class Airplane : IAirplane
     {
         public Airplane(string tag, double velocity, int course, List<Tracks> tracks, bool SeperationCodition)
         {
-
+            _tag = tag;
+            _velocity = velocity;
+            _compasCourse = course;
+            _tracks = tracks;
+            _seperationCodition = SeperationCodition;
         }
-        private string _tag { get; set; }
+        public string _tag
+        {
+            get => _tag;
+            set => _tag = value;
+        }
 
-        private double _velocity { get; set; }
+        public double _velocity
+        {
+            get => _velocity; 
+            set => _velocity = value;
+        }
 
-        private int _compasCourse { get; set; }
+        public int _compasCourse {
+            get => _compasCourse;
+            set => _compasCourse = value;
+        }
 
-        private List<Tracks> _tracks { get; set; }
+        public List<Tracks> _tracks {
+            get => _tracks;
+            set => _tracks = value;
+        }
 
-        private bool _seperationCodition { get; set; }
+        public bool _seperationCodition {
+            get => _seperationCodition;
+            set => _seperationCodition = value;
+        }
+        
     }
 }
